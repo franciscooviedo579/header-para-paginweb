@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+header div > a {
+  display: flex;
+  align-items: center;
+}
+
+search input,
+button {
+  font-size: 25px;
+}
+
+img.menu-img {
+  margin: 20px;
+}
+
+div.menu {
+  background-color: white;
+  position: absolute;
+  width: 280px;
+  height: 100vh;
+  border-left: 1px solid black;
+  display: none;
+  font-size: 25px;
+  right: 0;
+  top: 0;
+}
+
+img.x {
+  margin: 10px;
+}
+
+ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0px 30px;
+  padding: 10px;
+  list-style: none;
+}
+
+li:hover {
+  border-radius: 10px;
+  border: 1px solid black;
+}
